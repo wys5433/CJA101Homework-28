@@ -14,13 +14,13 @@ package hw2;
 
 public class Q6 {
 	public static void main(String args[]) {
-		int count = 10;
-		for (int i = 1; i <= 10; i++) {
+		int count = 10;// 每列的數字個數
+		for (int i = 1; i <= 10; i++) {// 外層迴圈控制行數
 			for (int j = 1; j <= count; j++) {
 				System.out.print(j + " ");
 			}
-			count--;
-			System.out.println();
+			count--;// 換行
+			System.out.println();// 每列減少一個數字
 		}
 		
 	}
